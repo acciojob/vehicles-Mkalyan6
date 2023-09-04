@@ -14,6 +14,9 @@ public class Vehicle {
         return currentSpeed;
     }
 
+    public String getName() {
+        return name;
+    }
 
     public Vehicle(String name) {
        // name of the vehicle is given through constructor, have to initialize with name.

@@ -49,6 +49,9 @@ public class Car extends Vehicle {
     public int getSeats() {
         return seats;
     }
+    public String getName(){
+        return super.getName();
+    }
 
     public void changeGear(int newGear){
         currentGear=newGear;
